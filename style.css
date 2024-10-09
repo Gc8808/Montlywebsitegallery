@@ -142,5 +142,38 @@
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
   }
+
+  .color {
+background-color: rgb(230, 157, 129);
+  }
+
+  .navtext {
+color: black;
+  }
+  
+  .colorchange {
+color: black;
+transition-duration: 2s;
+  }
+
+  .colorchange:hover {
+    color: white;
+    transition-duration: 2s;
+    transform: scale(1.3); 
+      }
+
+      .resise {
+        transition-duration: 2s;
+          }
+
+          .resise:hover {
+      
+            transition-duration: 2s;
+            transform: scale(1.1);
+            border-radius: 10px; 
+            border-color: red;
+              }
+      
+  
   
   
